@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Reminder Settings">
+
+        <SwitchPreference
+            android:key="reminder"
+            android:title="Enable Reminder"
+            android:textStyle="normal"
+            android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Personal Information">
+        <EditTextPreference
+            android:key="email"
+            android:title="Email"
+            android:dialogTitle="Email"
+            android:maxLines="1"
+            android:defaultValue="abc@email.com"
+            android:inputType="textCapWords"/>
+
+    </PreferenceCategory>
+
+
+    <Preference
+        android:key="@string/logout"
+        android:title="@string/logout"/>
+
+
+
+</PreferenceScreen>

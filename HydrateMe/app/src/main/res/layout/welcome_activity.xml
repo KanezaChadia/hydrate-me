@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8086F0F8"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="214dp"
+        android:layout_height="131dp"
+        android:src="@drawable/hydrateme_logo"
+        android:contentDescription="@string/logo"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/slogan_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#038BEF"
+        android:layout_marginTop="250dp"
+        android:id="@+id/signUpNow"
+        android:text="@string/sign_up"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#038BEF"
+        android:layout_marginTop="50dp"
+        android:id="@+id/signInNow"
+        android:text="@string/sign_in"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/SignIn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?android:attr/selectableItemBackground"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:text="@string/sign_in"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#038BEF"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+<!--    -->
+<!--    -->
+
+<!--    <Button-->
+<!--        android:id="@+id/SignUp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?android:attr/selectableItemBackground"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:text="@string/sign_up"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#038BEF"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+</LinearLayout>
