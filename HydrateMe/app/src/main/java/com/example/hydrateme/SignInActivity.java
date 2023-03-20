@@ -11,12 +11,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hydrateme.home.HomeActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class SignInActivity extends AppCompatActivity implements View.OnClickListener {
     TextView mSignUp;
@@ -64,7 +64,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                                 //Log.d(TAG, "signInWithEmail:success");
                                 //updateUI(user);
                                 Toast.makeText(SignInActivity.this, "Sign in successful.", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
+                                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                                 startActivity(intent);
                             } else {
                                 // If sign in fails, display a message to the user.

@@ -49,22 +49,57 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_signup_et"
-            android:hint="@string/password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:password="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/re_enter_password_et"
-            android:hint="@string/re_enter_password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/re_enter_password"
+            android:password="true" />
     </com.google.android.material.textfield.TextInputLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/radioGrp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="25dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+            <RadioButton
+                android:id="@+id/radioM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:checked="true"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:text="Male"/>
+            <RadioButton
+                android:id="@+id/radioF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:checked="false"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:text="Female"/>
+        </RadioGroup>
+    </RelativeLayout>
 
     <Button
         android:id="@+id/sign_up_btn"
@@ -82,6 +117,5 @@
         android:layout_marginTop="20dp"
         android:id="@+id/signInNow"
         android:text="@string/click_to_log_in"/>
-
 
 </LinearLayout>

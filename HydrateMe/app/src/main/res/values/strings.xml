@@ -21,20 +21,14 @@
     <string name="water_intake_goal_value">Out of 60.5 fl oz</string>
     <string name="water_intake_value">0.0</string>
     <string name="water_measurement_value">fl oz</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
-
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
-
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pref_training_title">Training</string>
+    <string name="pref_weight_title">Weight (lb)</string>
+    <string name="pref_water_need_title">Daily Need</string>
+    <string name="pref_gender_title">Gender</string>
+    <string name="pref_notif_enable_title">Enable Reminder</string>
+    <string name="pref_notif_sound_title">Sounds</string>
+    <string name="pref_notif_interval_time_title">Time interval</string>
+    <string name="pref_sounds_title">Sounds</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_a_drink">Add a drink</string>
 </resources>
