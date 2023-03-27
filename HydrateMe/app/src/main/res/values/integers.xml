@@ -4,12 +4,12 @@
     <integer name="number_default_value">65</integer>
     <integer name="number_water_default_value">3000</integer>
     <integer name="weight_min_value">80</integer>
-    <integer name="weight_max_value">440</integer>
+    <integer name="weight_max_vlaue">400</integer>
 
 
-     <integer name="water_recom_number_value">68</integer>
-    <integer name="water_recom_number_min_value">34</integer>
-    <integer name="water_recom_number_max_value">128</integer>
+     <integer name="water_recom_number_value">128</integer>
+    <integer name="water_recom_number_min_value">10</integer>
+    <integer name="water_recom_number_max_value">500</integer>
     <integer name="notif_time_interval_min_value">1</integer>
     <integer name="notif_time_max_vlaue">7</integer>
     <integer name="notif_time_interval_max_value">4</integer>

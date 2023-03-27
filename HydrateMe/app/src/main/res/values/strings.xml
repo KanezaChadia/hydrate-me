@@ -1,34 +1,42 @@
 <resources>
+    <string name="pager">1/6</string>
     <string name="app_name">HydrateMe</string>
-    <string name="sign_up_welcome">Don\'t have an account? Create one.</string>
-    <string name="sign_in">Sign In</string>
-    <string name="slogan">Stay healthy, stay hydrated</string>
-    <string name="logo">logo</string>
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="re_enter_password">Re-Enter Password</string>
-    <string name="create">create</string>
-    <string name="login_title">Login</string>
-    <string name="email_login">Email</string>
-    <string name="password_login">Password</string>
-    <string name="sign_in_login">Sign In</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="click_to_sign_up">Click to Sign Up</string>
-    <string name="click_to_log_in">Click to log in</string>
-    <string name="logout">Logout</string>
-    <string name="water_intake_goal_value">Out of 60.5 fl oz</string>
-    <string name="water_intake_value">0.0</string>
-    <string name="water_measurement_value">fl oz</string>
+
+    <!-- settings-->
+    <string name="action_settings">Settings</string>
+    <string name="activity_settings_title">Settings</string>
+
+
+    <!-- fragments preferences title & summary  water calculation-->
     <string name="pref_training_title">Training</string>
     <string name="pref_weight_title">Weight (lb)</string>
     <string name="pref_water_need_title">Daily Need</string>
     <string name="pref_gender_title">Gender</string>
-    <string name="pref_notif_enable_title">Enable Reminder</string>
+
+    <string name="pref_notif_enable_title">Notifications</string>
     <string name="pref_notif_sound_title">Sounds</string>
     <string name="pref_notif_interval_time_title">Time interval</string>
     <string name="pref_sounds_title">Sounds</string>
-    <string name="action_settings">Settings</string>
-    <string name="add_a_drink">Add a drink</string>
+
+
+    <string name="wake_up_review">2 glasses of water after waking up - helps activate internal organs</string>
+    <string name="sleep_review">1 glass of water before going to bed - avoids stroke or heart attack</string>
+    <string name="shower_review">1 glass of water before taking a shower - helps lower blood pressure </string>
+    <string name="meal_review">1 glass of water 30 before a meal - helps digestion</string>
+    <string name="lose_weight">Water speeds up the metabolism. To lose extra weight - drink more water</string>
+    <string name="lack_water">The brain and blood vessels function poorly with a lack of water. To prevent this from happening, maintain a normal water balance</string>
+    <string name="title_activity_history_chart">historyChartActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="login_title">Login</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="sign_in_login">Sign In</string>
+    <string name="click_to_sign_up">Click to Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="create">Create</string>
+    <string name="click_to_log_in">Click to Log In</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

@@ -21,7 +21,7 @@
         android:background="@drawable/round_corner"
         android:layout_marginLeft="10dp"
         android:text="set"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
          />
 
 

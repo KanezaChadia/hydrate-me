@@ -6,10 +6,9 @@ Hardware requirements: A computer
 
 Log in requirements/credentials for testing: 
          you can create your own log in but here is the existing login you can use to test: 
-              email: janedo@email.com
+              email: janed@email.com
               password: password1
          
-Known bugs: the history page is still blank, and the settings page is unfinished.
+Known bugs: The personal info section in still not functional
 
-Any other special requirements your instructor should know about:
-    You can only create an account, log in and logout and view different activities from the clicking on each item on the bottom navigation view.
+
